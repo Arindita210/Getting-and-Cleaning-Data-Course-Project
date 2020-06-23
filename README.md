@@ -7,6 +7,13 @@ This repository contains the following files:
 - CodeBook.md, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data).
 - run_analysis.R, the R script that was used to create the data set 
 
+## Data Source
+Data for this project was obtain from the Coursera assignment instructions. Data represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
+
+Data for the project:
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
+
 ## Creating the data set <a name="creating-data-set"></a>
 The R script run_analysis.R can be used to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script itself):
 
