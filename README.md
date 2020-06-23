@@ -1,16 +1,13 @@
 # Getting-and-Cleaning-Data-Course-Project
-One of the most exciting areas in all of data science right now is wearable computing - see for example this article. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users.
-
-In this project, data collected from the accelerometer and gyroscope of the Samsung Galaxy S smartphone was retrieved, worked with, and cleaned, to prepare a tidy data that can be used for later analysis.
+One of the most exciting areas in all of data science right now is wearable computing - see for example this article. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. In this project, data collected from the accelerometer and gyroscope of the Samsung Galaxy S smartphone was retrieved, worked with, and cleaned, to prepare a tidy data that can be used for later analysis.
 
 This repository contains the following files:
+- README.md, this file, which provides an overview of the data set and how it was created.
+- tidy_data.txt, which contains the data set.
+- CodeBook.md, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data).
+- run_analysis.R, the R script that was used to create the data set 
 
-README.md, this file, which provides an overview of the data set and how it was created.
-tidy_data.txt, which contains the data set.
-CodeBook.md, the code book, which describes the contents of the data set (data, variables and transformations used to generate the data).
-run_analysis.R, the R script that was used to create the data set 
-
-##Creating the data set <a name="creating-data-set"></a>
+## Creating the data set <a name="creating-data-set"></a>
 The R script run_analysis.R can be used to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps (see the Code book for details, as well as the comments in the script itself):
 
 - Download and unzip source data if it doesn't exist.
