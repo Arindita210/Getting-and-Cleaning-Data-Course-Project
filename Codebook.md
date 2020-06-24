@@ -2,7 +2,6 @@
 title: "CodeBook"
 author: "Arindita"
 date: "6/23/2020"
-output: html_document
 ---
 
 
