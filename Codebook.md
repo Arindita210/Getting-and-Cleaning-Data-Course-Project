@@ -5,9 +5,6 @@ date: "6/23/2020"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Code book for Coursera *Getting and Cleaning Data* course project
 
